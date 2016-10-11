@@ -1,4 +1,4 @@
 # redditRobots
-A bookmarklet to add unique icons to each user on a Reddit discussion
-[Copy this to a bookmark](function robotify(){javascript:$(".author").each(function(){if(!$(this).attr("robotified")){$(this).append("<img src='https://robohash.org/"+$(this).text()+".png?size=60x60&set=any'>");$(this).attr("robotified",!0)}})}
-setInterval(robotify,1000))
+A bookmarklet to add unique icons to each user on a Reddit discussion. This helps you to more easily see who's saying what.
+
+To use, copy the text from robots.js into a new bookmark, and click any time you want to add robots to a Reddit page.
